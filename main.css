@@ -1,0 +1,23 @@
+html, body {
+    width: 100%;    
+}
+
+/*
+Sliding Images
+*/
+.slidingImages {
+    position: relative;    
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+    border: 5px solid black;  
+}
+
+.slidingImages img {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    -moz-transition: opacity 2s ease;
+    transition: opacity 2s ease;
+}
+
